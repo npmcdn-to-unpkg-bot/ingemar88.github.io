@@ -1,0 +1,94 @@
+.hexagon-promo--hover, .hexagon--small, .portfolio, .servise, .team, .tw, .about, .blog, .contact, .fb, .g, .hexagon--large, .hexagon-promo, .hexagon-promo--control, .hexagon--large--hover{
+	background: url(sprites.png) no-repeat;
+}
+
+.hexagon-promo--hover{
+	background-position: -285px 0;
+	width: 172px;
+	height: 186px;
+}
+
+.hexagon--small{
+	background-position: -362px -246px ;
+	width: 86px;
+	height: 93px;
+}
+
+.portfolio{
+	background-position: -176px -73px ;
+	width: 50px;
+	height: 53px;
+}
+
+.servise{
+	background-position: -87px -73px ;
+	width: 61px;
+	height: 54px;
+}
+
+.team{
+	background-position: 0 -73px ;
+	width: 56px;
+	height: 56px;
+}
+
+.tw{
+	background-position: -118px -159px ;
+	width: 15px;
+	height: 32px;
+}
+
+.about{
+	background-position: -116px 0;
+	width: 57px;
+	height: 57px;
+}
+
+.blog{
+	background-position: -192px 0;
+	width: 58px;
+	height: 58px;
+}
+
+.contact{
+	background-position: -40px 0;
+	width: 58px;
+	height: 58px;
+}
+
+.fb{
+	background-position: -69px -159px ;
+	width: 15px;
+	height: 35px;
+}
+
+.g{
+	background-position: -16px -157px ;
+	width: 20px;
+	height: 36px;
+}
+
+.hexagon--large{
+	background-position: -473px -203px ;
+	width: 167px;
+	height: 181px;
+}
+
+.hexagon-promo{
+	background-position: -468px 0;
+	width: 172px;
+	height: 186px;
+}
+
+.hexagon-promo--control{
+	background-position: -286px -263px ;
+	width: 64px;
+	height: 70px;
+}
+
+.hexagon--large--hover{
+	background-position: -103px -256px ;
+	width: 167px;
+	height: 181px;
+}
+
