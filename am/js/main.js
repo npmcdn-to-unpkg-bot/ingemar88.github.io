@@ -1,1 +1,1 @@
-$(".navbar__toggle").click(function(){$(this).toggleClass("active")}),$(".top-slider").swipe({swipe:function(e,l,t,i,s,a){"left"==l&&$(this).carousel("next"),"right"==l&&$(this).carousel("prev")},allowPageScroll:"vertical"});
+$(".navbar__toggle").click(function(){$(this).toggleClass("active")}),$(".top-slider").swipe({swipe:function(e,i,t,l,s,o){"left"==i&&$(this).carousel("next"),"right"==i&&$(this).carousel("prev")},allowPageScroll:"vertical"}),$(".news__row").masonry({itemSelector:".news__item",columnWidth:".grid-sizer"});
