@@ -53,7 +53,7 @@
 	        		<a href="tel:+7495999999" class="navbar__contact-tel">
 	        			<i class="icon-mobile"></i> +7 (495) 99-99-99 
 	        		</a>
-	        		<a href="#" class="navbar__contact-feedback">
+	        		<a href="#callback-popup" class="navbar__contact-feedback" data-title='Заказать обратный звонок' data-info='Заказать обратный звонок. Navbar'>
 	        			Заказать обратный звонок
 	        		</a>
 	        	</div>
@@ -66,22 +66,22 @@
 	        				</a>
 	        			</li>
 	        			<li>
-	        				<a href="#">
+	        				<a href="#service">
 	        					Монтаж
 	        				</a>
 	        			</li>
 	        			<li>
-	        				<a href="#">
+	        				<a href="#service">
 	        					Проектирование
 	        				</a>
 	        			</li>
 	        			<li>
-	        				<a href="#">
+	        				<a href="#service">
 	        					Оборудование
 	        				</a>
 	        			</li>
 	        			<li>
-	        				<a href="#">
+	        				<a href="#callback">
 	        					Контакты
 	        				</a>
 	        			</li>
@@ -107,7 +107,7 @@
 	        				</li>
 	        			</ul>
 	        
-	        			<a href="#" class="header-top__btn">
+	        			<a href="#callback-popup" class="header-top__btn" data-title="Отправить заявку на монтаж" data-info="Отправить заявку.Header-top">
 	        				Отправить заявку
 	        			</a>
 	        		</div>
@@ -176,18 +176,23 @@
                	<div class="profile__container">
                		<div class="profile__row">
                			<div class="profile__col">
-               				<a href="#" class="profile__item">
-               					<img src="img/profile-img.jpg" alt="" width="555" height="370">
-               					<div class="profile__squad">
-               						<span class="icon-picture"></span>
-               					</div>
-               					<div class="profile__mask">
-               						<div class="profile__mask-box">
-               							<i class="icon-play-circle2"></i>
-               							<span>Галерея</span>
+               				<div class="profile__item-wrapper">
+               					<a href="img/photos/0.jpg" class="profile__item  profile__item-mfp">
+               						<img src="img/profile-img.jpg" alt="" width="555" height="370">
+               						<div class="profile__squad">
+               							<span class="icon-picture"></span>
                						</div>
-               					</div>
-               				</a>
+               						<div class="profile__mask">
+               							<div class="profile__mask-box">
+               								<i class="icon-play-circle2"></i>
+               								<span>Галерея</span>
+               							</div>
+               						</div>
+               					</a>
+               					<a href="img/photos/1.jpg" class="profile__item  profile__item-mfp"></a>
+               					<a href="img/photos/2.jpg" class="profile__item  profile__item-mfp"></a>
+               					<a href="img/photos/3.jpg" class="profile__item  profile__item-mfp"></a>
+               				</div>
                			</div>
                			<div class="profile__col">
                				<h4 class="profile__title">
@@ -206,14 +211,14 @@
                				</ul>
                
                				<div class="profile__btn-group">
-               					<a href="#" class="profile__btn profile__btn--buy">Сделать заказ</a>
+               					<a href="#callback-popup" class="profile__btn profile__btn--buy" data-title="Сделать заказ на кондиционирование" data-info="Сделать заказ. Profile">Сделать заказ</a>
                					<a href="#" class="profile__btn profile__btn--sert"><i class="icon-cancel"></i> Наши сертификаты</a>
                				</div>
                			</div>
                		</div>
                	</div>
                </section>
-               <section class="service">
+               <section class="service" id="service">
                	<div class="service__container">
                		<h2 class="service__title">
                			Основные направления услуг
@@ -228,7 +233,7 @@
                				<p class="service__item-text">
                					Монтаж вентиляции является основным и главным направлением компании ОВК Строй. Наша компания выполняет монтаж вентиляции уже более 6 лет.
                				</p>
-               				<a href="#" class="service__item-btn">Закзать монтаж</a>
+               				<a href="#callback-popup" class="service__item-btn" data-title="Заказать монтаж" data-info="Заказать монтаж. Service">Закзать монтаж</a>
                			</div>
                			<div class="service__item">
                				<i class="icon-services-2  service__item-icon"></i>
@@ -238,7 +243,7 @@
                				<p class="service__item-text">
                					Основная задача задача наших специалистов это поиск оптимальных решений по взаимодействию и интеграции в архитектуру здания вышеуказанных инженерных систем.
                				</p>
-               				<a href="#" class="service__item-btn">Закзать проектирование</a>
+               				<a href="#callback-popup" class="service__item-btn" data-title="Заказать проектирование" data-info="Заказать проектирование. Service">Закзать проектирование</a>
                			</div>
                			<div class="service__item">
                				<i class="icon-services-3  service__item-icon"></i>
@@ -248,7 +253,7 @@
                				<p class="service__item-text">
                					Кроме того, мы реализуем оборудование для кондиционирования и венлиляции помещений в Москве и области.
                				</p>
-               				<a href="#modal-form" class="service__item-btn service__item-btn-1">Закзать оборудование</a>
+               				<a href="#callback-popup" class="service__item-btn service__item-btn-1" data-title="Заказать оборудование" data-info="Заказать оборудование. Service">Закзать оборудование</a>
                			</div>
                		</div>
                	</div>
@@ -260,7 +265,7 @@
                		</h2>
                		<div class="works__row">
                			<div class="works__item">
-               				<a href="#" class="works__item-link">
+               				<a href="#works-popup-1" class="works__item-link">
                					<img src="img/works-1.jpg" title="Works-1" alt="" class="works__item-img" width="480" height="320">
                					<div class="works__mask">
                						<div class="works__mask-box">
@@ -269,9 +274,41 @@
                						</div>
                					</div>
                				</a>
+               				<div class="hidden">
+               					<div class="works-popup" id="works-popup-1">
+               						<div class="works-popup__container">
+               							<div class="works-popup__row">
+               								<img src="img/works-1.jpg" alt="" class="works-popup__img" width="740" height="490">
+               							</div>
+               							<h2 class="works-popup__title">
+               								Историческое здание - особняк представительского класса
+               							</h2>
+               							<div class="works-popup__row">
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-location"></i>
+               										Адрес:
+               									</div>
+               									<div class="works-popup__text">
+               										Москва, м. Тверская, переулок Большой Гнездниковский, дом 3.
+               									</div>
+               								</div>
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-ok"></i>
+               										Работы:
+               									</div>
+               									<div class="works-popup__text">
+               											Проектирование и монтаж систем вентиляции, кондиционирования, дымоудаления, отопления.
+               									</div>
+               								</div>
+               							</div>
+               						</div>
+               					</div>
+               				</div>
                			</div>
                			<div class="works__item">
-               				<a href="#" class="works__item-link">
+               				<a href="#works-popup-2" class="works__item-link">
                					<img src="img/works-2.jpg" title="Works-1" alt="" class="works__item-img" width="480" height="320">
                					<div class="works__mask">
                						<div class="works__mask-box">
@@ -280,9 +317,41 @@
                						</div>
                					</div>
                				</a>
+               				<div class="hidden">
+               					<div class="works-popup" id="works-popup-2">
+               						<div class="works-popup__container">
+               							<div class="works-popup__row">
+               								<img src="img/works-2.jpg" alt="" class="works-popup__img" width="740" height="490">
+               							</div>
+               							<h2 class="works-popup__title">
+               								Историческое здание - особняк представительского класса
+               							</h2>
+               							<div class="works-popup__row">
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-location"></i>
+               										Адрес:
+               									</div>
+               									<div class="works-popup__text">
+               										Москва, м. Тверская, переулок Большой Гнездниковский, дом 3.
+               									</div>
+               								</div>
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-ok"></i>
+               										Работы:
+               									</div>
+               									<div class="works-popup__text">
+               											Проектирование и монтаж систем вентиляции, кондиционирования, дымоудаления, отопления.
+               									</div>
+               								</div>
+               							</div>
+               						</div>
+               					</div>
+               				</div>
                			</div>
                			<div class="works__item">
-               				<a href="#" class="works__item-link">
+               				<a href="#works-popup-3" class="works__item-link">
                					<img src="img/works-3.jpg" title="Works-1" alt="" class="works__item-img" width="480" height="320">
                					<div class="works__mask">
                						<div class="works__mask-box">
@@ -291,9 +360,41 @@
                						</div>
                					</div>
                				</a>
+               				<div class="hidden">
+               					<div class="works-popup" id="works-popup-3">
+               						<div class="works-popup__container">
+               							<div class="works-popup__row">
+               								<img src="img/works-3.jpg" alt="" class="works-popup__img" width="740" height="490">
+               							</div>
+               							<h2 class="works-popup__title">
+               								Историческое здание - особняк представительского класса
+               							</h2>
+               							<div class="works-popup__row">
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-location"></i>
+               										Адрес:
+               									</div>
+               									<div class="works-popup__text">
+               										Москва, м. Тверская, переулок Большой Гнездниковский, дом 3.
+               									</div>
+               								</div>
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-ok"></i>
+               										Работы:
+               									</div>
+               									<div class="works-popup__text">
+               											Проектирование и монтаж систем вентиляции, кондиционирования, дымоудаления, отопления.
+               									</div>
+               								</div>
+               							</div>
+               						</div>
+               					</div>
+               				</div>
                			</div>
                			<div class="works__item">
-               				<a href="#" class="works__item-link">
+               				<a href="#works-popup-4" class="works__item-link">
                					<img src="img/works-4.jpg" title="Works-1" alt="" class="works__item-img" width="480" height="320">
                					<div class="works__mask">
                						<div class="works__mask-box">
@@ -302,9 +403,41 @@
                						</div>
                					</div>
                				</a>
+               				<div class="hidden">
+               					<div class="works-popup" id="works-popup-4">
+               						<div class="works-popup__container">
+               							<div class="works-popup__row">
+               								<img src="img/works-4.jpg" alt="" class="works-popup__img" width="740" height="490">
+               							</div>
+               							<h2 class="works-popup__title">
+               								Историческое здание - особняк представительского класса
+               							</h2>
+               							<div class="works-popup__row">
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-location"></i>
+               										Адрес:
+               									</div>
+               									<div class="works-popup__text">
+               										Москва, м. Тверская, переулок Большой Гнездниковский, дом 3.
+               									</div>
+               								</div>
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-ok"></i>
+               										Работы:
+               									</div>
+               									<div class="works-popup__text">
+               											Проектирование и монтаж систем вентиляции, кондиционирования, дымоудаления, отопления.
+               									</div>
+               								</div>
+               							</div>
+               						</div>
+               					</div>
+               				</div>
                			</div>
                			<div class="works__item">
-               				<a href="#" class="works__item-link">
+               				<a href="#works-popup-5" class="works__item-link">
                					<img src="img/works-5.jpg" title="Works-1" alt="" class="works__item-img" width="480" height="320">
                					<div class="works__mask">
                						<div class="works__mask-box">
@@ -313,9 +446,41 @@
                						</div>
                					</div>
                				</a>
+               				<div class="hidden">
+               					<div class="works-popup" id="works-popup-5">
+               						<div class="works-popup__container">
+               							<div class="works-popup__row">
+               								<img src="img/works-5.jpg" alt="" class="works-popup__img" width="740" height="490">
+               							</div>
+               							<h2 class="works-popup__title">
+               								Историческое здание - особняк представительского класса
+               							</h2>
+               							<div class="works-popup__row">
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-location"></i>
+               										Адрес:
+               									</div>
+               									<div class="works-popup__text">
+               										Москва, м. Тверская, переулок Большой Гнездниковский, дом 3.
+               									</div>
+               								</div>
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-ok"></i>
+               										Работы:
+               									</div>
+               									<div class="works-popup__text">
+               											Проектирование и монтаж систем вентиляции, кондиционирования, дымоудаления, отопления.
+               									</div>
+               								</div>
+               							</div>
+               						</div>
+               					</div>
+               				</div>
                			</div>
                			<div class="works__item">
-               				<a href="#" class="works__item-link">
+               				<a href="#works-popup-6" class="works__item-link">
                					<img src="img/works-6.jpg" title="Works-1" alt="" class="works__item-img" width="480" height="320">
                					<div class="works__mask">
                						<div class="works__mask-box">
@@ -324,9 +489,41 @@
                						</div>
                					</div>
                				</a>
+               				<div class="hidden">
+               					<div class="works-popup" id="works-popup-6">
+               						<div class="works-popup__container">
+               							<div class="works-popup__row">
+               								<img src="img/works-6.jpg" alt="" class="works-popup__img" width="740" height="490">
+               							</div>
+               							<h2 class="works-popup__title">
+               								Историческое здание - особняк представительского класса
+               							</h2>
+               							<div class="works-popup__row">
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-location"></i>
+               										Адрес:
+               									</div>
+               									<div class="works-popup__text">
+               										Москва, м. Тверская, переулок Большой Гнездниковский, дом 3.
+               									</div>
+               								</div>
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-ok"></i>
+               										Работы:
+               									</div>
+               									<div class="works-popup__text">
+               											Проектирование и монтаж систем вентиляции, кондиционирования, дымоудаления, отопления.
+               									</div>
+               								</div>
+               							</div>
+               						</div>
+               					</div>
+               				</div>
                			</div>
                			<div class="works__item">
-               				<a href="#" class="works__item-link">
+               				<a href="#works-popup-7" class="works__item-link">
                					<img src="img/works-7.jpg" title="Works-1" alt="" class="works__item-img" width="480" height="320">
                					<div class="works__mask">
                						<div class="works__mask-box">
@@ -335,9 +532,41 @@
                						</div>
                					</div>
                				</a>
+               				<div class="hidden">
+               					<div class="works-popup" id="works-popup-7">
+               						<div class="works-popup__container">
+               							<div class="works-popup__row">
+               								<img src="img/works-7.jpg" alt="" class="works-popup__img" width="740" height="490">
+               							</div>
+               							<h2 class="works-popup__title">
+               								Историческое здание - особняк представительского класса
+               							</h2>
+               							<div class="works-popup__row">
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-location"></i>
+               										Адрес:
+               									</div>
+               									<div class="works-popup__text">
+               										Москва, м. Тверская, переулок Большой Гнездниковский, дом 3.
+               									</div>
+               								</div>
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-ok"></i>
+               										Работы:
+               									</div>
+               									<div class="works-popup__text">
+               											Проектирование и монтаж систем вентиляции, кондиционирования, дымоудаления, отопления.
+               									</div>
+               								</div>
+               							</div>
+               						</div>
+               					</div>
+               				</div>
                			</div>
                			<div class="works__item">
-               				<a href="#" class="works__item-link">
+               				<a href="#works-popup-8" class="works__item-link">
                					<img src="img/works-8.jpg" title="Works-1" alt="" class="works__item-img" width="480" height="320">
                					<div class="works__mask">
                						<div class="works__mask-box">
@@ -346,6 +575,38 @@
                						</div>
                					</div>
                				</a>
+               				<div class="hidden">
+               					<div class="works-popup" id="works-popup-8">
+               						<div class="works-popup__container">
+               							<div class="works-popup__row">
+               								<img src="img/works-8.jpg" alt="" class="works-popup__img" width="740" height="490">
+               							</div>
+               							<h2 class="works-popup__title">
+               								Историческое здание - особняк представительского класса
+               							</h2>
+               							<div class="works-popup__row">
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-location"></i>
+               										Адрес:
+               									</div>
+               									<div class="works-popup__text">
+               										Москва, м. Тверская, переулок Большой Гнездниковский, дом 3.
+               									</div>
+               								</div>
+               								<div class="works-popup__col">
+               									<div class="works-popup__name">
+               										<i class="icon-ok"></i>
+               										Работы:
+               									</div>
+               									<div class="works-popup__text">
+               											Проектирование и монтаж систем вентиляции, кондиционирования, дымоудаления, отопления.
+               									</div>
+               								</div>
+               							</div>
+               						</div>
+               					</div>
+               				</div>
                			</div>
                		</div>
                	</div>
@@ -499,7 +760,7 @@
                		<p class="sale__text">
                			Всем клиентам, обратившимся в нашу компанию до октября 2016 года мы предоставляем уникальную возможность получить <span>скидку до 40%</span>.
                		</p>
-               		<a href="#" class="sale__btn">
+               		<a href="#callback-popup" class="sale__btn" data-title="Отправить заявку со скидкой" data-info="Отправить заявку со скидкой. Sales">
                			Отправить заявку
                		</a>
                	</div>
@@ -650,9 +911,264 @@
                		</div>
                	</div>
                </section>
+               <section class="testimonials">
+               	<div class="testimonials__container">
+               		<h2 class="testimonials__title">
+               			Отзывы клиентов о нашей работе
+               		</h2>
+               		<div class="testimonials__row">
+               			<div class="testimonials-thumbnail">
+               				<div class="testimonials-thumbnail__header">
+               					<a href="#testimonials-1" class="testimonials-thumbnail__link"></a>
+               						<div class="testimonials-thumbnail__avatar">
+               							<img src="img/portrait-4.png" alt="" width="100" height="100">
+               						</div>
+               						<div class="testimonials-thumbnail__header-content">
+               							<div class="testimonials-thumbnail__name">
+               								Валентина Петровна
+               							</div>
+               							<div class="testimonials-thumbnail__prof">
+               								ООО "Протон"
+               							</div>
+               						</div>
+               				</div>
+               
+               
+               				<div class="testimonials-thumbnail__footer" id="testimonials-1">
+               					<h4 class="testimonials-thumbnail__title">
+               						Невероятно замечательная компания
+               					</h4>
+               					<p class="testimonials-thumbnail__text">
+               						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.
+               					</p>
+               				</div>
+               			</div>
+               
+               			<div class="testimonials-thumbnail">
+               				<div class="testimonials-thumbnail__header">
+               					<a href="#testimonials-2" class="testimonials-thumbnail__link"></a>
+               						<div class="testimonials-thumbnail__avatar">
+               							<img src="img/portrait-1.png" alt="" width="100" height="100">
+               						</div>
+               						<div class="testimonials-thumbnail__header-content">
+               							<div class="testimonials-thumbnail__name">
+               								Владислав Сергеевич
+               							</div>
+               							<div class="testimonials-thumbnail__prof">
+               								ООО "Пронькина забава"
+               							</div>
+               						</div>
+               				</div>
+               
+               
+               				<div class="testimonials-thumbnail__footer" id="testimonials-2">
+               					<h4 class="testimonials-thumbnail__title">
+               						Невероятно замечательная компания
+               					</h4>
+               					<p class="testimonials-thumbnail__text">
+               						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.
+               						
+               					</p>
+               				</div>
+               			</div>
+               
+               			<div class="testimonials-thumbnail">
+               				<div class="testimonials-thumbnail__header">
+               					<a href="#testimonials-3" class="testimonials-thumbnail__link"></a>
+               						<div class="testimonials-thumbnail__avatar">
+               							<img src="img/portrait-2.png" alt="" width="100" height="100">
+               						</div>
+               						<div class="testimonials-thumbnail__header-content">
+               							<div class="testimonials-thumbnail__name">
+               								Сергей Владимирович
+               							</div>
+               							<div class="testimonials-thumbnail__prof">
+               								ЗАО "Профит"
+               							</div>
+               						</div>
+               				</div>
+               
+               
+               				<div class="testimonials-thumbnail__footer" id="testimonials-3">
+               					<h4 class="testimonials-thumbnail__title">
+               						Невероятно замечательная компания
+               					</h4>
+               					<p class="testimonials-thumbnail__text">
+               						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.
+               
+               					</p>
+               				</div>
+               			</div>
+               		</div>
+               	</div>
+               </section>
+               <section class="callback" id="callback">
+               	<div class="callback__container">
+               		<h2 class="callback__title">
+               			Контакты
+               		</h2>
+               		<div class="callback__row">
+               			<div class="callback__col-1">
+               				<div class="callback__contact">
+               					<a href="#" class="callback__contact-address">
+               						<i class="icon-location"></i> <strong>Адрес</strong>: Москва, ул. Пантелеева, 15, оф. 3-03
+               					</a>
+               					<a href="#" class="callback__contact-tel">
+               						<i class="icon-mobile"></i> <strong>Телефон</strong>: 8 (495) 970-44-90
+               					</a>
+               				</div>
+               				<div class="callback__map">
+               					<div class="callback__map-container" id="callback-map">
+               						
+               					</div>
+               				</div>
+               			</div>
+               			<div class="callback__col-2">
+               				<form class="callback-form" name="callback-form">
+               					<h4 class="callback-form__title">
+               						Оставить заявку
+               					</h4>
+               					<p class="callback-form__text">
+               						Оставьте заявку и мы свяжемся с вами в течение 20 минут.
+               					</p>
+               					<div class="callback-form__form-group">
+               						<label for="callback-form__form-control-name" class="callback-form__control-label">Ваше имя:</label>
+               						<div class="callback-form__row">
+               							<input type="text" class="callback-form__form-control" name="callback-form__name" id="callback-form__form-control-name" placeholder="Введите имя.." required pattern="[0-9a-zA-Z]{3,11}">
+               						</div>
+               					</div>
+               					<div class="callback-form__form-group">
+               						<label for="callback-form__form-control-tel" class="callback-form__control-label">Ваш телефон:</label>
+               						<div class="callback-form__row">
+               							<input type="tel" class="callback-form__form-control" name="callback-form__tel" id="callback-form__form-control-tel" placeholder="Введите телефон.." required>
+               						</div>
+               					</div>
+               					<div class="callback-form__form-group">
+               						<label for="callback-form__form-select-question" class="callback-form__control-label">Услуга:</label>
+               						<div class="callback-form__row">
+               							<select class="callback-form__form-select" name="callback-form__form-select" id="callback-form__form-select-question">
+               								<option value="Проектирование вентиляции" selected>Проектирование вентиляции</option>
+               								<option value="Проектирование метро">Проектирование метро</option>
+               								<option value="Проектирование зданий">Проектирование зданий</option>
+               							</select>
+               						</div>
+               					</div>
+               					<div class="callback-form__btn-group-justified">
+               						<div class="callback-form__btn-group">
+               							<button type="submit" class="callback-form__btn callback-form__btn-submit">
+               								Отправить
+               							</button>
+               						</div>
+               						<div class="callback-form__btn-group">
+               							<button type="reset" class="callback-form__btn callback-form__btn-cancel">
+               								Отмена
+               							</button>
+               						</div>
+               					</div>
+               				</form>
+               			</div>
+               		</div>
+               	</div>
+               </section>
             </div>
         </main>
-
+	<footer class="main-footer">
+	    <div class="main-footer__container">
+			<nav class="footer navbar">
+				<div class="navbar__header">
+					<a href="#footer-navbar__collapse" data-toggle='collapse' data-target='#footer-navbar__collapse' class="navbar__toggle">
+						<span></span>
+					</a>
+					<a href="#" class="navbar__brand  navbar__brand-footer">
+						<svg width="100" height="47">
+							<use xlink:href="#logo-white"></use>
+						</svg>
+					</a>
+			
+				</div>
+			
+				<div class="navbar__contact">
+					<a href="tel:+7495999999" class="navbar__contact-tel">
+						<i class="icon-mobile"></i> +7 (495) 99-99-99 
+					</a>
+					<a href="#callback-popup" class="navbar__contact-feedback" data-title="Заказать обратный звонок" data-info="Заказать обратный звонок. Footer"> 
+						Заказать обратный звонок
+					</a>
+				</div>
+			
+				<div class="navbar__collapse collapse" id="footer-navbar__collapse">
+					<ul class="navbar__nav">
+						<li class="active">
+							<a href="#">
+								Главная
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Монтаж
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Проектирование
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Оборудование
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Контакты
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+	    </div>     
+	</footer>
+	<div class="modal-popup hidden">
+		<form class="callback-form callback-popup" name="callback-form" id="callback-popup">
+		<div class="callback-popup__wrapper">
+			<div class="callback-popup-success">
+				<h4>Спасибо за заявку</h4>
+			</div>
+			<input type="hidden" name="info">
+				<h4 class="callback-form__title">
+					Оставить заявку
+				</h4>
+				<p class="callback-form__text">
+					Оставьте заявку и мы свяжемся с вами в течение 20 минут.
+				</p>
+				<div class="callback-form__form-group">
+					<label for="callback-form__form-control-name" class="callback-form__control-label">Ваше имя:</label>
+					<div class="callback-form__row">
+						<input type="text" class="callback-form__form-control" name="callback-form__name" id="callback-form__form-control-name" placeholder="Введите имя.." required pattern="[0-9a-zA-Z]{3,11}">
+					</div>
+				</div>
+				<div class="callback-form__form-group">
+					<label for="callback-form__form-control-tel" class="callback-form__control-label">Ваш телефон:</label>
+					<div class="callback-form__row">
+						<input type="tel" class="callback-form__form-control" name="callback-form__tel" id="callback-form__form-control-tel" placeholder="Введите телефон.." required>
+					</div>
+				</div>
+			
+				<div class="callback-form__btn-group-justified">
+					<div class="callback-form__btn-group">
+						<button type="submit" class="callback-form__btn callback-form__btn-submit">
+							Отправить
+						</button>
+					</div>
+					<div class="callback-form__btn-group">
+						<button type="reset" class="callback-form__btn callback-form__btn-cancel">
+							Отмена
+						</button>
+					</div>
+				</div>
+		</div>
+		</form>
+	</div>
 	
     
 	<script src="js/libs.js"></script>
@@ -671,5 +1187,6 @@
 	 -->
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=lNmVDAac1XAfVM5Xi7rnIikhDLRRO7R3&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true;id=callback-map"></script>
     </body>
 </html>
